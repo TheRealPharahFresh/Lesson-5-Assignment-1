@@ -13,6 +13,7 @@ while True:
         added_item = input("Add Item For List: ")
         list.append(added_item)
         print(f"Your {added_item} is now in the list!")
+        break
     elif operation == "3":
         removed_item = input("What item should be removed?: ")
         list.remove(removed_item)
